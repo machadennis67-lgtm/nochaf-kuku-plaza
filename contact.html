@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Nochaf Kuku Plaza</title>
+<meta name="description" content="Find and contact Nochaf Kuku Plaza in Jomvu Jitoni, Mombasa.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<header>
+  <a href="index.html" class="logo">NOCHAF <span>KUKU</span> PLAZA</a>
+  <div class="nav-links">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="order.html" class="order-btn">Order Online</a>
+  </div>
+  <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+</header>
+
+<div class="page-banner">
+  <span class="eyebrow">Find The Plaza</span>
+  <h1>Come find the smoke.</h1>
+  <p>Walk in, call ahead, or send us a message — we'll have the grill going either way.</p>
+</div>
+
+<section class="plaza" style="border-top:none;">
+  <div class="plaza-info" style="padding-top:0;">
+    <div class="info-row"><div class="k">Address</div><div class="v"><strong>Nochaf Kuku Plaza</strong><br>Jomvu Jitoni, Mombasa</div></div>
+    <div class="info-row"><div class="k">Hours</div><div class="v"><strong>Mon–Sun</strong> · 10:00 AM – 11:00 PM</div></div>
+    <div class="info-row"><div class="k">Phone</div><div class="v"><a href="tel:+254722264053" style="color:var(--cream);">0722 264 053</a></div></div>
+    <div class="info-row"><div class="k">WhatsApp</div><div class="v"><a href="https://wa.me/254722264053" target="_blank" rel="noopener" style="color:var(--cream);">0722 264 053</a></div></div>
+    <div class="info-row"><div class="k">M-Pesa</div><div class="v">Buy Goods Till <strong>5530084</strong></div></div>
+    <div class="info-row"><div class="k">Parking</div><div class="v">Free parking on the plaza grounds</div></div>
+  </div>
+  <div class="plaza-visual"><div class="grill-mark">
+    <div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div>
+  </div></div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="section-head">
+    <span class="eyebrow">Pay Ahead</span>
+    <h2>M-Pesa Buy Goods</h2>
+    <p>Paying before you arrive, or settling a delivery order? Use our till number directly — no app, no forms.</p>
+  </div>
+  <div class="till-badge">
+    <span class="tb-label">Till Number</span>
+    <span class="tb-num">5530084</span>
+    <button type="button" class="till-copy" onclick="navigator.clipboard.writeText('5530084'); this.textContent='Copied';">Copy</button>
+  </div>
+  <ol class="till-steps">
+    <li>Go to M-Pesa on your phone → <strong>Lipa na M-Pesa</strong> → <strong>Buy Goods and Services</strong></li>
+    <li>Enter Till Number <strong>5530084</strong></li>
+    <li>Enter the amount and your M-Pesa PIN</li>
+    <li>Send us the confirmation SMS on <a href="https://wa.me/254722264053" target="_blank" rel="noopener" style="color:var(--mustard);">WhatsApp</a> so we can start grilling</li>
+  </ol>
+</section>
+
+<section style="padding-top:0;">
+  <div class="section-head">
+    <span class="eyebrow">Send A Message</span>
+    <h2>Get in touch</h2>
+    <p>Fill this in and it opens a pre-filled WhatsApp chat straight to the plaza — no back and forth typing out the details.</p>
+  </div>
+
+  <form id="contact-form" style="max-width:640px;">
+    <div class="form-field">
+      <label for="c-name">Your name</label>
+      <input type="text" id="c-name" name="name" required placeholder="e.g. Amina Hassan">
+    </div>
+    <div class="form-field">
+      <label for="c-phone">Phone number</label>
+      <input type="tel" id="c-phone" name="phone" required placeholder="e.g. 0712 345 678">
+    </div>
+    <div class="form-field">
+      <label for="c-subject">What's this about</label>
+      <select id="c-subject" name="subject">
+        <option value="General enquiry">General enquiry</option>
+        <option value="Booking a table">Booking a table</option>
+        <option value="Catering / large order">Catering / large order</option>
+        <option value="Feedback">Feedback</option>
+      </select>
+    </div>
+    <div class="form-field">
+      <label for="c-message">Message</label>
+      <textarea id="c-message" name="message" required placeholder="Tell us what you need..."></textarea>
+    </div>
+    <button type="submit" class="btn-primary">Send via WhatsApp</button>
+    <p class="form-note">Prefer email or a call? Reach us directly on <a href="tel:+254722264053" style="color:var(--mustard);">0722 264 053</a>.</p>
+  </form>
+</section>
+
+<footer>
+  <div class="footer-col">
+    <div class="logo" style="margin-bottom:14px;">NOCHAF <span>KUKU</span> PLAZA</div>
+    <p>No chaff. Just kuku.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Visit</h4>
+    <p>Jomvu Jitoni, Mombasa</p>
+    <p>Open daily, 10AM – 11PM</p>
+  </div>
+  <div class="footer-col">
+    <h4>Contact</h4>
+    <a href="https://wa.me/254722264053" target="_blank" rel="noopener">WhatsApp: 0722 264 053</a>
+    <a href="tel:+254722264053">Call: 0722 264 053</a>
+  </div>
+  <div class="footer-col">
+    <h4>Explore</h4>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="order.html">Order Online</a>
+  </div>
+  <div class="footer-bottom">© 2026 Nochaf Kuku Plaza. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('c-name').value.trim();
+    const phone = document.getElementById('c-phone').value.trim();
+    const subject = document.getElementById('c-subject').value;
+    const message = document.getElementById('c-message').value.trim();
+
+    const text = `Hi Nochaf Kuku Plaza! I'm ${name} (${phone}).\n\nSubject: ${subject}\n\nMessage: ${message}`;
+    window.open(`https://wa.me/254722264053?text=${encodeURIComponent(text)}`, '_blank');
+  });
+</script>
+</body>
+</html>
